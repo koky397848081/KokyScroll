@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CFB2E4391DF70032FF7F9F15C977038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		20D70160716A6DDF6ED4604774597A81 /* Pods-KokyScrollTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86489EB5AD972EC8CE416E67F4883DD6 /* Pods-KokyScrollTests-dummy.m */; };
+		24A0316E06DA15216264902937147EF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		257406657598DB501E0215E62A1C9224 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4C0219962AA392CDF88625AA3FBF6CCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		75AB0F163016FE5CF3446F10A3988EFC /* Pods-KokyScrollUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 251254C48EB397D038C131C57716C9F6 /* Pods-KokyScrollUITests-dummy.m */; };
+		7D0C54E0DC5B78F8A512E834D4AB074A /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */; };
+		805B611BA3DF3187054E38190CD00EAF /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98AAEB7E30CBFEA86FAC5522B692E08C /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0224C54D9800D9C79EC0D253F2AA224 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		CCD02AC57F160D1C14E5FDDC16D35788 /* Pods-KokyScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3C997CC48DC802436F2009DF881517 /* Pods-KokyScroll-dummy.m */; };
+		D1648505B44C1ADF53DF4B3CDBD12CE7 /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FED8C987CB90731C0417533CB8CB0BAD /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		070E2FBA6E90E4D9359253EE037A4825 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89FC2C32F54EDEE2D441C35EC58979F6;
+			remoteInfo = SDAutoLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0561D39A28CEC310A99B02D36A0088E5 /* Pods-KokyScrollTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KokyScrollTests-resources.sh"; sourceTree = "<group>"; };
+		071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
+		08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		142FBB14D515CA783969532C26018FC3 /* libPods-KokyScrollUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KokyScrollUITests.a"; path = "libPods-KokyScrollUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D55A0BC447F778E15B3DDC44E96B31B /* libPods-KokyScrollTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KokyScrollTests.a"; path = "libPods-KokyScrollTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		251254C48EB397D038C131C57716C9F6 /* Pods-KokyScrollUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KokyScrollUITests-dummy.m"; sourceTree = "<group>"; };
+		29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		2E4EE151A7518619BC7BB84277295699 /* Pods-KokyScrollUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KokyScrollUITests-resources.sh"; sourceTree = "<group>"; };
+		42A9F0CB34F9F427579EE24239D98AC6 /* Pods-KokyScrollUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KokyScrollUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4800DF5499D2F322F1F717AA88C5E711 /* Pods-KokyScroll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KokyScroll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AC40ACC94C04BE2BE5543C344513E34 /* Pods-KokyScrollTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KokyScrollTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		555CE7B9B17B2C2DB24F5BDA52145F68 /* Pods-KokyScroll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KokyScroll-frameworks.sh"; sourceTree = "<group>"; };
+		5B6F61D3177EB1AC5282E39A9593BE2B /* Pods-KokyScrollTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KokyScrollTests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73B77A5591132467A6765AE457A24DCC /* Pods-KokyScroll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KokyScroll-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D6F119E0B0FF4E9E31DD152AF1A5D8B /* libSDAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDAutoLayout.a; path = libSDAutoLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		85602730F72F2EA7E98B42EFABDD3B4D /* Pods-KokyScrollTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KokyScrollTests.debug.xcconfig"; sourceTree = "<group>"; };
+		86489EB5AD972EC8CE416E67F4883DD6 /* Pods-KokyScrollTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KokyScrollTests-dummy.m"; sourceTree = "<group>"; };
+		92F8FE4E576494F5B5589B50D9703AE1 /* Pods-KokyScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KokyScroll.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F7FD2AEBF3D58B551A34C55F1EA041 /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		BE52D1919A2060C9BFA5ABD19A3145F0 /* Pods-KokyScrollUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KokyScrollUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		CCF5CEFA75560C4BDFC8C7E3C7756B50 /* libPods-KokyScroll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-KokyScroll.a"; path = "libPods-KokyScroll.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF763568960ED4C8CAA2BEFB496BF227 /* Pods-KokyScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KokyScroll.release.xcconfig"; sourceTree = "<group>"; };
+		D16FB170CEFDA11FE9D4F048BAAD7EAD /* Pods-KokyScrollUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KokyScrollUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9D1E166CFDC89DF7FEE0460BC20BFC6 /* Pods-KokyScrollUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KokyScrollUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EB975C133BBFAFDD57F5F868E9B76877 /* Pods-KokyScrollTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KokyScrollTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED3C997CC48DC802436F2009DF881517 /* Pods-KokyScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KokyScroll-dummy.m"; sourceTree = "<group>"; };
+		EEDFAAA685B2A97FFE7F730008D1AA84 /* Pods-KokyScroll-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KokyScroll-resources.sh"; sourceTree = "<group>"; };
+		F1F9272CE8656DF6B94FFD13BE390F6A /* Pods-KokyScrollUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KokyScrollUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F2E869B76919F89E7C562AF4C63BE294 /* Pods-KokyScrollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KokyScrollTests.release.xcconfig"; sourceTree = "<group>"; };
+		F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.xcconfig; sourceTree = "<group>"; };
+		F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45376015EA69C5F95B753DBD16698C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257406657598DB501E0215E62A1C9224 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C3397E00075BDB8D74DA9BCD19374A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A0316E06DA15216264902937147EF2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CDCA2A6F37CE5D3FAEF25E8D067CD1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFB2E4391DF70032FF7F9F15C977038 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83A2924A51AC65F911ED337D756AC249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0219962AA392CDF88625AA3FBF6CCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FE72E44B5F1CB12FDE70C26CC46B0F9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */,
+				F8CE1B828749E6B19601F32D1897F272 /* SDAutoLayout-dummy.m */,
+				94F7FD2AEBF3D58B551A34C55F1EA041 /* SDAutoLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDAutoLayout";
+			sourceTree = "<group>";
+		};
+		519CB0308ECCC0D02676BBD1879B98A9 /* Pods-KokyScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D16FB170CEFDA11FE9D4F048BAAD7EAD /* Pods-KokyScrollUITests-acknowledgements.markdown */,
+				42A9F0CB34F9F427579EE24239D98AC6 /* Pods-KokyScrollUITests-acknowledgements.plist */,
+				251254C48EB397D038C131C57716C9F6 /* Pods-KokyScrollUITests-dummy.m */,
+				F1F9272CE8656DF6B94FFD13BE390F6A /* Pods-KokyScrollUITests-frameworks.sh */,
+				2E4EE151A7518619BC7BB84277295699 /* Pods-KokyScrollUITests-resources.sh */,
+				BE52D1919A2060C9BFA5ABD19A3145F0 /* Pods-KokyScrollUITests.debug.xcconfig */,
+				E9D1E166CFDC89DF7FEE0460BC20BFC6 /* Pods-KokyScrollUITests.release.xcconfig */,
+			);
+			name = "Pods-KokyScrollUITests";
+			path = "Target Support Files/Pods-KokyScrollUITests";
+			sourceTree = "<group>";
+		};
+		641965D67593C806D301D2B7DB3AD690 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				071B3B78097765A076025B93048C6B09 /* SDAutoLayout.h */,
+				82E461F2C1503F17685F06D54AE040EA /* UITableView+SDAutoTableViewCellHeight.h */,
+				C3104270020ED4A1CFFE19DC9641F896 /* UITableView+SDAutoTableViewCellHeight.m */,
+				29CE405B8A0EB1C5C35D1AAD7F6C414E /* UIView+SDAutoLayout.h */,
+				08C2CB4C834DE21DC8BC04FA8A811CF2 /* UIView+SDAutoLayout.m */,
+				3FE72E44B5F1CB12FDE70C26CC46B0F9 /* Support Files */,
+			);
+			name = SDAutoLayout;
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ABCDF8479A0506B3345CF7B496FE2F2D /* Pods */,
+				98C390D1772B665AD74626C284075501 /* Products */,
+				96A10BDECBA058ECBB6FF3BF9ADD5F57 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96A10BDECBA058ECBB6FF3BF9ADD5F57 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0F41E2961343C2D40838621743650F1 /* Pods-KokyScroll */,
+				9DD02CC75EC38A8E5F19DDD5D52DBE73 /* Pods-KokyScrollTests */,
+				519CB0308ECCC0D02676BBD1879B98A9 /* Pods-KokyScrollUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		98C390D1772B665AD74626C284075501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF5CEFA75560C4BDFC8C7E3C7756B50 /* libPods-KokyScroll.a */,
+				1D55A0BC447F778E15B3DDC44E96B31B /* libPods-KokyScrollTests.a */,
+				142FBB14D515CA783969532C26018FC3 /* libPods-KokyScrollUITests.a */,
+				7D6F119E0B0FF4E9E31DD152AF1A5D8B /* libSDAutoLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD02CC75EC38A8E5F19DDD5D52DBE73 /* Pods-KokyScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB975C133BBFAFDD57F5F868E9B76877 /* Pods-KokyScrollTests-acknowledgements.markdown */,
+				4AC40ACC94C04BE2BE5543C344513E34 /* Pods-KokyScrollTests-acknowledgements.plist */,
+				86489EB5AD972EC8CE416E67F4883DD6 /* Pods-KokyScrollTests-dummy.m */,
+				5B6F61D3177EB1AC5282E39A9593BE2B /* Pods-KokyScrollTests-frameworks.sh */,
+				0561D39A28CEC310A99B02D36A0088E5 /* Pods-KokyScrollTests-resources.sh */,
+				85602730F72F2EA7E98B42EFABDD3B4D /* Pods-KokyScrollTests.debug.xcconfig */,
+				F2E869B76919F89E7C562AF4C63BE294 /* Pods-KokyScrollTests.release.xcconfig */,
+			);
+			name = "Pods-KokyScrollTests";
+			path = "Target Support Files/Pods-KokyScrollTests";
+			sourceTree = "<group>";
+		};
+		ABCDF8479A0506B3345CF7B496FE2F2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641965D67593C806D301D2B7DB3AD690 /* SDAutoLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0F41E2961343C2D40838621743650F1 /* Pods-KokyScroll */ = {
+			isa = PBXGroup;
+			children = (
+				4800DF5499D2F322F1F717AA88C5E711 /* Pods-KokyScroll-acknowledgements.markdown */,
+				73B77A5591132467A6765AE457A24DCC /* Pods-KokyScroll-acknowledgements.plist */,
+				ED3C997CC48DC802436F2009DF881517 /* Pods-KokyScroll-dummy.m */,
+				555CE7B9B17B2C2DB24F5BDA52145F68 /* Pods-KokyScroll-frameworks.sh */,
+				EEDFAAA685B2A97FFE7F730008D1AA84 /* Pods-KokyScroll-resources.sh */,
+				92F8FE4E576494F5B5589B50D9703AE1 /* Pods-KokyScroll.debug.xcconfig */,
+				CF763568960ED4C8CAA2BEFB496BF227 /* Pods-KokyScroll.release.xcconfig */,
+			);
+			name = "Pods-KokyScroll";
+			path = "Target Support Files/Pods-KokyScroll";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AC18E8E215CC9EE3FCCD5CFD2855125 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				805B611BA3DF3187054E38190CD00EAF /* SDAutoLayout.h in Headers */,
+				D1648505B44C1ADF53DF4B3CDBD12CE7 /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
+				98AAEB7E30CBFEA86FAC5522B692E08C /* UIView+SDAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89FC2C32F54EDEE2D441C35EC58979F6 /* SDAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65524B9BEDC5179719F65673F148BD5 /* Build configuration list for PBXNativeTarget "SDAutoLayout" */;
+			buildPhases = (
+				B968380906EDE00F5C198789030ECF89 /* Sources */,
+				83A2924A51AC65F911ED337D756AC249 /* Frameworks */,
+				0AC18E8E215CC9EE3FCCD5CFD2855125 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDAutoLayout;
+			productName = SDAutoLayout;
+			productReference = 7D6F119E0B0FF4E9E31DD152AF1A5D8B /* libSDAutoLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8A6384E89705B24E7E5F56EF46E907E7 /* Pods-KokyScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EAFBB595A5A785215A6EC31681FBA83 /* Build configuration list for PBXNativeTarget "Pods-KokyScrollUITests" */;
+			buildPhases = (
+				ABEE8279BE8F1408D5D4DE9DA47C1E0B /* Sources */,
+				45376015EA69C5F95B753DBD16698C84 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KokyScrollUITests";
+			productName = "Pods-KokyScrollUITests";
+			productReference = 142FBB14D515CA783969532C26018FC3 /* libPods-KokyScrollUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8CBDB1A949F59C583A21D9BA09EA271B /* Pods-KokyScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6EB6950BCEA29EFA4DD891DBD28224 /* Build configuration list for PBXNativeTarget "Pods-KokyScroll" */;
+			buildPhases = (
+				45A91048A8B9F5D16D5F4258FFFA6F30 /* Sources */,
+				54C3397E00075BDB8D74DA9BCD19374A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4436BF03FDA7455E89FC41473A4D5D40 /* PBXTargetDependency */,
+			);
+			name = "Pods-KokyScroll";
+			productName = "Pods-KokyScroll";
+			productReference = CCF5CEFA75560C4BDFC8C7E3C7756B50 /* libPods-KokyScroll.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8FED80A251C9C0104996FF3FE281EFF0 /* Pods-KokyScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A686061AF15143C0473AA2DCB7E6C6 /* Build configuration list for PBXNativeTarget "Pods-KokyScrollTests" */;
+			buildPhases = (
+				D0FB5E3855B59318101504BC0700C9E0 /* Sources */,
+				7CDCA2A6F37CE5D3FAEF25E8D067CD1E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KokyScrollTests";
+			productName = "Pods-KokyScrollTests";
+			productReference = 1D55A0BC447F778E15B3DDC44E96B31B /* libPods-KokyScrollTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 98C390D1772B665AD74626C284075501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CBDB1A949F59C583A21D9BA09EA271B /* Pods-KokyScroll */,
+				8FED80A251C9C0104996FF3FE281EFF0 /* Pods-KokyScrollTests */,
+				8A6384E89705B24E7E5F56EF46E907E7 /* Pods-KokyScrollUITests */,
+				89FC2C32F54EDEE2D441C35EC58979F6 /* SDAutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45A91048A8B9F5D16D5F4258FFFA6F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD02AC57F160D1C14E5FDDC16D35788 /* Pods-KokyScroll-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEE8279BE8F1408D5D4DE9DA47C1E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AB0F163016FE5CF3446F10A3988EFC /* Pods-KokyScrollUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B968380906EDE00F5C198789030ECF89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0C54E0DC5B78F8A512E834D4AB074A /* SDAutoLayout-dummy.m in Sources */,
+				B0224C54D9800D9C79EC0D253F2AA224 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				FED8C987CB90731C0417533CB8CB0BAD /* UIView+SDAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0FB5E3855B59318101504BC0700C9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D70160716A6DDF6ED4604774597A81 /* Pods-KokyScrollTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4436BF03FDA7455E89FC41473A4D5D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDAutoLayout;
+			target = 89FC2C32F54EDEE2D441C35EC58979F6 /* SDAutoLayout */;
+			targetProxy = 070E2FBA6E90E4D9359253EE037A4825 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04AC1B4EABE3F65762F3CCAC6960E3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1C6C1DDA313D9C5F147A5F7843909CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF763568960ED4C8CAA2BEFB496BF227 /* Pods-KokyScroll.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		41302A4346FAED1521FF5781C973A233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE52D1919A2060C9BFA5ABD19A3145F0 /* Pods-KokyScrollUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4BF7A9CB83D8030FFAE81FB464006499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F8FE4E576494F5B5589B50D9703AE1 /* Pods-KokyScroll.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60DDA49B415B6F465240B4DA2AC4A6FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85602730F72F2EA7E98B42EFABDD3B4D /* Pods-KokyScrollTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		81FAA3EC77622699DAD9AC29ADDE66E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2E869B76919F89E7C562AF4C63BE294 /* Pods-KokyScrollTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7305CF000F48259EB196F64A1A91567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D1E166CFDC89DF7FEE0460BC20BFC6 /* Pods-KokyScrollUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F86934F76B67369D10F32A6856A612DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F390125CBD545AF4AB9C5151E3E8236F /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A686061AF15143C0473AA2DCB7E6C6 /* Build configuration list for PBXNativeTarget "Pods-KokyScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DDA49B415B6F465240B4DA2AC4A6FF /* Debug */,
+				81FAA3EC77622699DAD9AC29ADDE66E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EAFBB595A5A785215A6EC31681FBA83 /* Build configuration list for PBXNativeTarget "Pods-KokyScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41302A4346FAED1521FF5781C973A233 /* Debug */,
+				B7305CF000F48259EB196F64A1A91567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65524B9BEDC5179719F65673F148BD5 /* Build configuration list for PBXNativeTarget "SDAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AC1B4EABE3F65762F3CCAC6960E3AB /* Debug */,
+				F86934F76B67369D10F32A6856A612DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6EB6950BCEA29EFA4DD891DBD28224 /* Build configuration list for PBXNativeTarget "Pods-KokyScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF7A9CB83D8030FFAE81FB464006499 /* Debug */,
+				1C6C1DDA313D9C5F147A5F7843909CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

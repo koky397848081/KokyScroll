@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07310428DC8CAAAC7207ECC4 /* libPods-KokyScroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A56267CF1BFD95DA5D4CC96B /* libPods-KokyScroll.a */; };
+		48673B642489141D0BBA35DC /* libPods-KokyScrollUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAC426E4EC657C15E3CE473 /* libPods-KokyScrollUITests.a */; };
+		CC2871971EB76AED006935AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2871961EB76AED006935AD /* main.m */; };
+		CC28719A1EB76AED006935AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2871991EB76AED006935AD /* AppDelegate.m */; };
+		CC28719D1EB76AED006935AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC28719C1EB76AED006935AD /* ViewController.m */; };
+		CC2871A01EB76AED006935AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC28719E1EB76AED006935AD /* Main.storyboard */; };
+		CC2871A21EB76AED006935AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2871A11EB76AED006935AD /* Assets.xcassets */; };
+		CC2871A51EB76AED006935AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2871A31EB76AED006935AD /* LaunchScreen.storyboard */; };
+		CC2871B01EB76AED006935AD /* KokyScrollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2871AF1EB76AED006935AD /* KokyScrollTests.m */; };
+		CC2871BB1EB76AED006935AD /* KokyScrollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2871BA1EB76AED006935AD /* KokyScrollUITests.m */; };
+		CC2871D41EB76C13006935AD /* ALTopicDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2871D21EB76C13006935AD /* ALTopicDetailViewController.m */; };
+		CC2871D51EB76C13006935AD /* ALTopicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2871D31EB76C13006935AD /* ALTopicDetailViewController.xib */; };
+		CC2871D91EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2871D71EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m */; };
+		CC2871DA1EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2871D81EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.xib */; };
+		CF18C6A4CC18C61470324314 /* libPods-KokyScrollTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB5E8D8DBFF5DFB35212102 /* libPods-KokyScrollTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC2871AC1EB76AED006935AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC28718A1EB76AED006935AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2871911EB76AED006935AD;
+			remoteInfo = KokyScroll;
+		};
+		CC2871B71EB76AED006935AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC28718A1EB76AED006935AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2871911EB76AED006935AD;
+			remoteInfo = KokyScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB5E8D8DBFF5DFB35212102 /* libPods-KokyScrollTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KokyScrollTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AFEEFE758328994F8A009FF /* Pods-KokyScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyScroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-KokyScroll/Pods-KokyScroll.release.xcconfig"; sourceTree = "<group>"; };
+		305D9309F5D636370BA84FB2 /* Pods-KokyScrollUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyScrollUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KokyScrollUITests/Pods-KokyScrollUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F91387605C0463AE13EB1AD /* Pods-KokyScrollTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyScrollTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KokyScrollTests/Pods-KokyScrollTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C0653F8D5844C10718CA98F /* Pods-KokyScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyScroll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KokyScroll/Pods-KokyScroll.debug.xcconfig"; sourceTree = "<group>"; };
+		8CB81E1265EB31BFF84765F0 /* Pods-KokyScrollUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyScrollUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KokyScrollUITests/Pods-KokyScrollUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A56267CF1BFD95DA5D4CC96B /* libPods-KokyScroll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KokyScroll.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAC426E4EC657C15E3CE473 /* libPods-KokyScrollUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KokyScrollUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2871921EB76AED006935AD /* KokyScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KokyScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2871961EB76AED006935AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC2871981EB76AED006935AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC2871991EB76AED006935AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC28719B1EB76AED006935AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC28719C1EB76AED006935AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC28719F1EB76AED006935AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC2871A11EB76AED006935AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC2871A41EB76AED006935AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC2871A61EB76AED006935AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2871AB1EB76AED006935AD /* KokyScrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KokyScrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2871AF1EB76AED006935AD /* KokyScrollTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KokyScrollTests.m; sourceTree = "<group>"; };
+		CC2871B11EB76AED006935AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2871B61EB76AED006935AD /* KokyScrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KokyScrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2871BA1EB76AED006935AD /* KokyScrollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KokyScrollUITests.m; sourceTree = "<group>"; };
+		CC2871BC1EB76AED006935AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2871D11EB76C13006935AD /* ALTopicDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTopicDetailViewController.h; sourceTree = "<group>"; };
+		CC2871D21EB76C13006935AD /* ALTopicDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTopicDetailViewController.m; sourceTree = "<group>"; };
+		CC2871D31EB76C13006935AD /* ALTopicDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALTopicDetailViewController.xib; sourceTree = "<group>"; };
+		CC2871D61EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSpaceZoneArticleTableViewCell.h; sourceTree = "<group>"; };
+		CC2871D71EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSpaceZoneArticleTableViewCell.m; sourceTree = "<group>"; };
+		CC2871D81EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALSpaceZoneArticleTableViewCell.xib; sourceTree = "<group>"; };
+		F83999B39149B538E847F212 /* Pods-KokyScrollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyScrollTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KokyScrollTests/Pods-KokyScrollTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC28718F1EB76AED006935AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07310428DC8CAAAC7207ECC4 /* libPods-KokyScroll.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2871A81EB76AED006935AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18C6A4CC18C61470324314 /* libPods-KokyScrollTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2871B31EB76AED006935AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48673B642489141D0BBA35DC /* libPods-KokyScrollUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08AA4F3154EBFD2E6B5F4D16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C0653F8D5844C10718CA98F /* Pods-KokyScroll.debug.xcconfig */,
+				2AFEEFE758328994F8A009FF /* Pods-KokyScroll.release.xcconfig */,
+				4F91387605C0463AE13EB1AD /* Pods-KokyScrollTests.debug.xcconfig */,
+				F83999B39149B538E847F212 /* Pods-KokyScrollTests.release.xcconfig */,
+				8CB81E1265EB31BFF84765F0 /* Pods-KokyScrollUITests.debug.xcconfig */,
+				305D9309F5D636370BA84FB2 /* Pods-KokyScrollUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7CB8FA13B0677AE1D909CFD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A56267CF1BFD95DA5D4CC96B /* libPods-KokyScroll.a */,
+				0CB5E8D8DBFF5DFB35212102 /* libPods-KokyScrollTests.a */,
+				ADAC426E4EC657C15E3CE473 /* libPods-KokyScrollUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC2871891EB76AED006935AD = {
+			isa = PBXGroup;
+			children = (
+				CC2871941EB76AED006935AD /* KokyScroll */,
+				CC2871AE1EB76AED006935AD /* KokyScrollTests */,
+				CC2871B91EB76AED006935AD /* KokyScrollUITests */,
+				CC2871931EB76AED006935AD /* Products */,
+				08AA4F3154EBFD2E6B5F4D16 /* Pods */,
+				7CB8FA13B0677AE1D909CFD6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC2871931EB76AED006935AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2871921EB76AED006935AD /* KokyScroll.app */,
+				CC2871AB1EB76AED006935AD /* KokyScrollTests.xctest */,
+				CC2871B61EB76AED006935AD /* KokyScrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC2871941EB76AED006935AD /* KokyScroll */ = {
+			isa = PBXGroup;
+			children = (
+				CC2871D11EB76C13006935AD /* ALTopicDetailViewController.h */,
+				CC2871D21EB76C13006935AD /* ALTopicDetailViewController.m */,
+				CC2871D31EB76C13006935AD /* ALTopicDetailViewController.xib */,
+				CC2871D61EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.h */,
+				CC2871D71EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m */,
+				CC2871D81EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.xib */,
+				CC2871981EB76AED006935AD /* AppDelegate.h */,
+				CC2871991EB76AED006935AD /* AppDelegate.m */,
+				CC28719B1EB76AED006935AD /* ViewController.h */,
+				CC28719C1EB76AED006935AD /* ViewController.m */,
+				CC28719E1EB76AED006935AD /* Main.storyboard */,
+				CC2871A11EB76AED006935AD /* Assets.xcassets */,
+				CC2871A31EB76AED006935AD /* LaunchScreen.storyboard */,
+				CC2871A61EB76AED006935AD /* Info.plist */,
+				CC2871951EB76AED006935AD /* Supporting Files */,
+			);
+			path = KokyScroll;
+			sourceTree = "<group>";
+		};
+		CC2871951EB76AED006935AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC2871961EB76AED006935AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC2871AE1EB76AED006935AD /* KokyScrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2871AF1EB76AED006935AD /* KokyScrollTests.m */,
+				CC2871B11EB76AED006935AD /* Info.plist */,
+			);
+			path = KokyScrollTests;
+			sourceTree = "<group>";
+		};
+		CC2871B91EB76AED006935AD /* KokyScrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2871BA1EB76AED006935AD /* KokyScrollUITests.m */,
+				CC2871BC1EB76AED006935AD /* Info.plist */,
+			);
+			path = KokyScrollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2871911EB76AED006935AD /* KokyScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2871BF1EB76AED006935AD /* Build configuration list for PBXNativeTarget "KokyScroll" */;
+			buildPhases = (
+				887921226644B72623CFB539 /* [CP] Check Pods Manifest.lock */,
+				CC28718E1EB76AED006935AD /* Sources */,
+				CC28718F1EB76AED006935AD /* Frameworks */,
+				CC2871901EB76AED006935AD /* Resources */,
+				DB216B701BD0F2F3D32306AF /* [CP] Embed Pods Frameworks */,
+				426BAF1551B729AEE3EBE7CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KokyScroll;
+			productName = KokyScroll;
+			productReference = CC2871921EB76AED006935AD /* KokyScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC2871AA1EB76AED006935AD /* KokyScrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2871C21EB76AED006935AD /* Build configuration list for PBXNativeTarget "KokyScrollTests" */;
+			buildPhases = (
+				9D3557FB4FF30F3D6C4AC42D /* [CP] Check Pods Manifest.lock */,
+				CC2871A71EB76AED006935AD /* Sources */,
+				CC2871A81EB76AED006935AD /* Frameworks */,
+				CC2871A91EB76AED006935AD /* Resources */,
+				94D56E541D80FE45DC2D68A2 /* [CP] Embed Pods Frameworks */,
+				A83ADB334DC9FB161714D7DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2871AD1EB76AED006935AD /* PBXTargetDependency */,
+			);
+			name = KokyScrollTests;
+			productName = KokyScrollTests;
+			productReference = CC2871AB1EB76AED006935AD /* KokyScrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC2871B51EB76AED006935AD /* KokyScrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2871C51EB76AED006935AD /* Build configuration list for PBXNativeTarget "KokyScrollUITests" */;
+			buildPhases = (
+				DCA631A9C12644CF771C8067 /* [CP] Check Pods Manifest.lock */,
+				CC2871B21EB76AED006935AD /* Sources */,
+				CC2871B31EB76AED006935AD /* Frameworks */,
+				CC2871B41EB76AED006935AD /* Resources */,
+				04B168E169166CE7B6AE162D /* [CP] Embed Pods Frameworks */,
+				2F03A1956604925A86BE7EE6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2871B81EB76AED006935AD /* PBXTargetDependency */,
+			);
+			name = KokyScrollUITests;
+			productName = KokyScrollUITests;
+			productReference = CC2871B61EB76AED006935AD /* KokyScrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC28718A1EB76AED006935AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jingjing;
+				TargetAttributes = {
+					CC2871911EB76AED006935AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+					};
+					CC2871AA1EB76AED006935AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC2871911EB76AED006935AD;
+					};
+					CC2871B51EB76AED006935AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 799WSE7R56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC2871911EB76AED006935AD;
+					};
+				};
+			};
+			buildConfigurationList = CC28718D1EB76AED006935AD /* Build configuration list for PBXProject "KokyScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC2871891EB76AED006935AD;
+			productRefGroup = CC2871931EB76AED006935AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2871911EB76AED006935AD /* KokyScroll */,
+				CC2871AA1EB76AED006935AD /* KokyScrollTests */,
+				CC2871B51EB76AED006935AD /* KokyScrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2871901EB76AED006935AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2871DA1EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.xib in Resources */,
+				CC2871A51EB76AED006935AD /* LaunchScreen.storyboard in Resources */,
+				CC2871A21EB76AED006935AD /* Assets.xcassets in Resources */,
+				CC2871D51EB76C13006935AD /* ALTopicDetailViewController.xib in Resources */,
+				CC2871A01EB76AED006935AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2871A91EB76AED006935AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2871B41EB76AED006935AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04B168E169166CE7B6AE162D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyScrollUITests/Pods-KokyScrollUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F03A1956604925A86BE7EE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyScrollUITests/Pods-KokyScrollUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		426BAF1551B729AEE3EBE7CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyScroll/Pods-KokyScroll-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		887921226644B72623CFB539 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94D56E541D80FE45DC2D68A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyScrollTests/Pods-KokyScrollTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D3557FB4FF30F3D6C4AC42D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A83ADB334DC9FB161714D7DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyScrollTests/Pods-KokyScrollTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB216B701BD0F2F3D32306AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KokyScroll/Pods-KokyScroll-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA631A9C12644CF771C8067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC28718E1EB76AED006935AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC28719D1EB76AED006935AD /* ViewController.m in Sources */,
+				CC28719A1EB76AED006935AD /* AppDelegate.m in Sources */,
+				CC2871D41EB76C13006935AD /* ALTopicDetailViewController.m in Sources */,
+				CC2871D91EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m in Sources */,
+				CC2871971EB76AED006935AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2871A71EB76AED006935AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2871B01EB76AED006935AD /* KokyScrollTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2871B21EB76AED006935AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2871BB1EB76AED006935AD /* KokyScrollUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC2871AD1EB76AED006935AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2871911EB76AED006935AD /* KokyScroll */;
+			targetProxy = CC2871AC1EB76AED006935AD /* PBXContainerItemProxy */;
+		};
+		CC2871B81EB76AED006935AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2871911EB76AED006935AD /* KokyScroll */;
+			targetProxy = CC2871B71EB76AED006935AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC28719E1EB76AED006935AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC28719F1EB76AED006935AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC2871A31EB76AED006935AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2871A41EB76AED006935AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC2871BD1EB76AED006935AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC2871BE1EB76AED006935AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2871C01EB76AED006935AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C0653F8D5844C10718CA98F /* Pods-KokyScroll.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.KokyScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC2871C11EB76AED006935AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AFEEFE758328994F8A009FF /* Pods-KokyScroll.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyScroll/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.KokyScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC2871C31EB76AED006935AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F91387605C0463AE13EB1AD /* Pods-KokyScrollTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.KokyScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KokyScroll.app/KokyScroll";
+			};
+			name = Debug;
+		};
+		CC2871C41EB76AED006935AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83999B39149B538E847F212 /* Pods-KokyScrollTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyScrollTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.KokyScrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KokyScroll.app/KokyScroll";
+			};
+			name = Release;
+		};
+		CC2871C61EB76AED006935AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB81E1265EB31BFF84765F0 /* Pods-KokyScrollUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.KokyScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KokyScroll;
+			};
+			name = Debug;
+		};
+		CC2871C71EB76AED006935AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305D9309F5D636370BA84FB2 /* Pods-KokyScrollUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 799WSE7R56;
+				INFOPLIST_FILE = KokyScrollUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jing.KokyScrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KokyScroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC28718D1EB76AED006935AD /* Build configuration list for PBXProject "KokyScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2871BD1EB76AED006935AD /* Debug */,
+				CC2871BE1EB76AED006935AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2871BF1EB76AED006935AD /* Build configuration list for PBXNativeTarget "KokyScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2871C01EB76AED006935AD /* Debug */,
+				CC2871C11EB76AED006935AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC2871C21EB76AED006935AD /* Build configuration list for PBXNativeTarget "KokyScrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2871C31EB76AED006935AD /* Debug */,
+				CC2871C41EB76AED006935AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC2871C51EB76AED006935AD /* Build configuration list for PBXNativeTarget "KokyScrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2871C61EB76AED006935AD /* Debug */,
+				CC2871C71EB76AED006935AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC28718A1EB76AED006935AD /* Project object */;
+}
