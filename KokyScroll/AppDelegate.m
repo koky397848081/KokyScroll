@@ -16,7 +16,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    //缓存
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        //假设设置一个内存使用量
+        int cacheSizeMemory = 4 * 1024 * 1024; // 4MB
+        int cacheSizeDisk = 32 * 1024 * 1024;  // 32MB
+        NSURLCache *sharedCache =
+        [[NSURLCache alloc] initWithMemoryCapacity:cacheSizeMemory
+                                      diskCapacity:cacheSizeDisk
+                                          diskPath:@"nsurlcache"];
+        [NSURLCache setSharedURLCache:sharedCache];
+        
+    });
+
     return YES;
 }
 

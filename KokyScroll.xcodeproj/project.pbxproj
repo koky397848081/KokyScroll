@@ -21,6 +21,7 @@
 		CC2871D51EB76C13006935AD /* ALTopicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2871D31EB76C13006935AD /* ALTopicDetailViewController.xib */; };
 		CC2871D91EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2871D71EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m */; };
 		CC2871DA1EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2871D81EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.xib */; };
+		CC7019421F39837D00094AF7 /* CacheTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7019411F39837D00094AF7 /* CacheTools.m */; };
 		CF18C6A4CC18C61470324314 /* libPods-KokyScrollTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB5E8D8DBFF5DFB35212102 /* libPods-KokyScrollTests.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,8 @@
 		CC2871D61EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALSpaceZoneArticleTableViewCell.h; sourceTree = "<group>"; };
 		CC2871D71EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALSpaceZoneArticleTableViewCell.m; sourceTree = "<group>"; };
 		CC2871D81EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ALSpaceZoneArticleTableViewCell.xib; sourceTree = "<group>"; };
+		CC7019401F39837D00094AF7 /* CacheTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheTools.h; sourceTree = "<group>"; };
+		CC7019411F39837D00094AF7 /* CacheTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheTools.m; sourceTree = "<group>"; };
 		F83999B39149B538E847F212 /* Pods-KokyScrollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KokyScrollTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KokyScrollTests/Pods-KokyScrollTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +164,8 @@
 				CC2871991EB76AED006935AD /* AppDelegate.m */,
 				CC28719B1EB76AED006935AD /* ViewController.h */,
 				CC28719C1EB76AED006935AD /* ViewController.m */,
+				CC7019401F39837D00094AF7 /* CacheTools.h */,
+				CC7019411F39837D00094AF7 /* CacheTools.m */,
 				CC28719E1EB76AED006935AD /* Main.storyboard */,
 				CC2871A11EB76AED006935AD /* Assets.xcassets */,
 				CC2871A31EB76AED006935AD /* LaunchScreen.storyboard */,
@@ -483,6 +488,7 @@
 			files = (
 				CC28719D1EB76AED006935AD /* ViewController.m in Sources */,
 				CC28719A1EB76AED006935AD /* AppDelegate.m in Sources */,
+				CC7019421F39837D00094AF7 /* CacheTools.m in Sources */,
 				CC2871D41EB76C13006935AD /* ALTopicDetailViewController.m in Sources */,
 				CC2871D91EB76C3E006935AD /* ALSpaceZoneArticleTableViewCell.m in Sources */,
 				CC2871971EB76AED006935AD /* main.m in Sources */,
@@ -727,6 +733,7 @@
 				CC2871C11EB76AED006935AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2871C21EB76AED006935AD /* Build configuration list for PBXNativeTarget "KokyScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -735,6 +742,7 @@
 				CC2871C41EB76AED006935AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC2871C51EB76AED006935AD /* Build configuration list for PBXNativeTarget "KokyScrollUITests" */ = {
 			isa = XCConfigurationList;
@@ -743,6 +751,7 @@
 				CC2871C71EB76AED006935AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
